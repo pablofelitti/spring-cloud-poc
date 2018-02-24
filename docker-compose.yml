@@ -5,3 +5,8 @@ services:
     image: service-registry
     ports:
       - "1111:1111"
+  user-microservice:
+    build: user-microservice
+    image: user-microservice
+    ports:
+      - "8080:8080"
