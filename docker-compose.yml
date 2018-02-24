@@ -1,0 +1,7 @@
+version: '3'
+services:
+  service-registry:
+    build: service-registry
+    image: service-registry
+    ports:
+      - "1111:1111"
